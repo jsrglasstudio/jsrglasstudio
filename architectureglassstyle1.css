@@ -9,6 +9,7 @@ body {
     font-size: 14px;
     font-weight: 200;
     color: #666;
+    overflow-x: hidden;
 
 }
 #logo{
@@ -442,17 +443,10 @@ transform: translateX(40%);
 
 /* Last Footer */
 
-.End {
-    background-color: black;
-    padding: 18px;
-}
 
-.End a {
-    justify-content: space-between;
-    margin-left: 10rem;
-    font-size: 18px;
-    color: #ccc;
-}
+
+
+
 
 
 
@@ -800,6 +794,71 @@ transform: translateX(40%);
 
   /* Media Query for footer ends here */
 
+  /* Last Footer */
+
+  .End {
+      background-color: black;
+      /* padding: 28px; */
+      height: 8vh;
+  }
+
+    .left,.right{
+      margin-top: 1.2rem;
+      /* text-align: center; */
+      float: left;
+      width: 50%;
+    }
+    .right{
+      text-align: right;
+    }
+    .ending{
+      margin-left: 2rem;
+    }
+    .ending1 {
+      /* margin-left: 36rem; */
+      margin-bottom:10px;
+      text-align: right;
+      justify-content: space-between;
+      margin-right: 10rem;
+      color: #fff;
+
+    }
+
+    /* Ends here */
+
+  /* Ending Page media query */
+  .End {
+      background-color: black;
+      /* padding: 28px; */
+      height: 13vh;
+      font-size: 11.5px;
+  }
+
+    .left,.right{
+      margin-top: 1rem;
+      text-align: center;
+      /* float: left; */
+      width: 100%;
+
+    }
+    .right{
+      text-align:center;
+    }
+    .ending{
+      margin-left: 0rem;
+    }
+    .ending1 {
+      /* margin-left: 36rem; */
+      margin-left: 2rem;
+
+      margin-bottom:12px;
+      text-align: right;
+      justify-content: space-between;
+      margin-right: 0rem;
+      color: #fff;
+
+    }
+    /* Ends here */
 
 
 }
