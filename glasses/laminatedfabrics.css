@@ -46,17 +46,16 @@ a{
   text-decoration: none;
 
 }
-nav {
-    height: 90px;
-    /* background: #0003; */
-    background-color: #0007;
+nav{
+   height: 90px;
+   background:#0001;
+   background: transparent;
+   position: fixed;
+   /* float: right; */
+   width: 100%;
+   font-weight: 200;
 
-    position: fixed;
-    /* float: right; */
-    width: 100%;
-    font-weight: 200;
-}
-
+  }
 .nav img {
     width: 150px;
     position: absolute;
@@ -284,6 +283,7 @@ ul li ul li .dropdown:hover{
 
 .scrolling-active .nav {
     height: 70px;
+    background-color: #0007;
 }
 
 .scrolling-active .nav a {
@@ -384,28 +384,29 @@ slide .p span {
     text-transform: uppercase;
 }
 
+
 .buttons {
-    margin-top: 2rem;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
+ margin-top: 2rem;
+ border-radius: 20px;
+ padding: 10px;
+ background-color:#0001;
+ border-color: #fff;
+
+}
+.buttons a{
+   text-align: center;
+   color: #fff;
+   font-weight: 900;
+   text-transform: uppercase;
 }
 .buttons:hover{
-    margin-top: 2rem;
-    border-radius: 10px;
-    padding: 15px;
-    background-color: rgba(0, 255,255, 0.5);
+   margin-top: 2rem;
+   padding: 12px;
+   background-color: rgba(0, 255,255, 0.5);
 }
+a{
+ text-decoration: none;
 
-.buttons a {
-    text-align: center;
-    color: #eee;
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-a {
-    text-decoration: none;
 }
 
 
@@ -496,13 +497,15 @@ background-color:red;
   /* transform:transparent; */
 }
 /* Modal Content */
+
 .modal-content {
   position: relative;
   margin: auto;
   padding: 0;
-  width: 80%;
+  width: 40%;
   max-width: 900px;
 }
+
 .image{
   height: 70vh;
 }
@@ -592,11 +595,17 @@ img {
 .hower-shadow{
 
 }
-img.hover-shadow {
+/* img.hover-shadow {
   transition: 0.3s;
   height: 150px;
   width: 150px;
+} */
+.hover-shadow{
+  width: 150px;
+  height: 150px;
 }
+
+
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -906,19 +915,7 @@ font-weight: 300;
         margin-top: 10rem;
         /* font-style */
     }
-    .buttons {
-        margin-top: 3rem;
-        border-radius: 20px;
-        padding: 10px;
-        background-color: #eee8;
-    }
-    .buttons a {
-        text-align: center;
-        color: red;
-    }
-    a {
-        text-decoration: none;
-    }
+  
     /* Slides Animation Completes Here */
     /* Image and Description MediaQuery Starts Here */
     .containers1 {
@@ -1166,7 +1163,14 @@ font-weight: 300;
       height: 50vh;
     }
 
+  .modal-content{
+    width: 80%;
+  }
 
+    .hover-shadow{
+        width: 100px;
+        height: 100px;
+      }
     .containers1 .rightdescription {
         width: 100%;
         margin-left: 1rem;

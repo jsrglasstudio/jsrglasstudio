@@ -31,7 +31,9 @@ body {
 /* Navbar */
 nav{
    height: 90px;
-   background:#0007;
+   /* background:t; */
+   background:transparent;
+   
    position: fixed;
    /* float: right; */
    width: 100%;

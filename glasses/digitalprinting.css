@@ -32,7 +32,8 @@ body {
 /* Navbar */
 nav{
    height: 90px;
-   background:#0003;
+   background:#0001;
+   background: transparent;
    position: fixed;
    /* float: right; */
    width: 100%;
@@ -297,7 +298,9 @@ slide:nth-child(1){
 slide:nth-child(2){
   animation-delay: 2s;
   /* background-image: url('Digital Printing/products/back painted.PNG'); */
-  background-image: url('Digital Printing/main/z3.PNG');
+  /* background-image: url('Digital Printing/main/z3.png'); */
+  background-image: url('Digital Printing/products/5.jpg');
+
   background-size: cover;
   /* background-image: url('Digital Printing/main/digital printing.PNG'); */
   background-position: center;
@@ -307,7 +310,7 @@ slide:nth-child(2){
 slide:nth-child(3){
   animation-delay: 5s;
   /* background-image: url('images/slide2.jpg'); */
-  background-image: url('Digital Printing/main/z14.PNG');
+  background-image: url('Digital Printing/products/3.jpg');
   /* background-image: url('Digital Printing1roducts/digital printing 2.PNG'); */
   background-size: cover;
   background-position: center;
@@ -317,7 +320,9 @@ slide:nth-child(3){
 slide:nth-child(4){
   left: 100%;
   animation-delay: 8s;
-  background-image:url('Digital Printing/products/digital printing1.PNG');
+  /* background-image:url('Digital Printing/products/digital printing1.PNG'); */
+  background-image: url('Digital Printing/products/4.jpg');
+
   /* background-image: url('Digital Printing/main/z2.PNG'); */
 
 
@@ -332,9 +337,9 @@ slide .p {
   display: inline-block;
   width: 100%;
   margin-top: 15rem;
-  margin-left: 10rem;
+  margin-left: 8rem;
   color:#fff;
-  /* font-weight: 3002px; */
+  font-weight: 300;
   text-transform: uppercase;
 }
 
@@ -348,17 +353,22 @@ slide .p span {
 }
 .buttons {
   margin-top: 2rem;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 10px;
-  background-color:rgba(255,255,255,0.1);
-
+  background-color:#0001;
+  border-color: #fff;
 
 }
 .buttons a{
     text-align: center;
-    color: #eee8;
+    color: #fff;
     font-weight: 900;
     text-transform: uppercase;
+}
+.buttons:hover{
+    margin-top: 2rem;
+    padding: 12px;
+    background-color: rgba(0, 255,255, 0.5);
 }
 a{
   text-decoration: none;
@@ -446,7 +456,7 @@ background-color:red;
   position: relative;
   margin: auto;
   padding: 0;
-  width: 80%;
+  width: 40%;
   max-width: 900px;
 }
 .image{
@@ -562,15 +572,6 @@ img.hover-shadow {
 
 
 
-
-
-
-
-
-
-
-
-
 .rightdescriptions{
   color:#0007;
   text-shadow: 0rem 0.1rem 0.1rem #9b9b9b;
@@ -595,7 +596,6 @@ font-weight: 300;
   border-radius: 10px;
   padding: 10px;
   background-color:rgb(0,0,0);
-
 
 }
 .button a{
@@ -688,6 +688,8 @@ a{
 
 .scrolling-active .nav {
     height: 70px;
+    background:#0007;
+
 }
 
 .scrolling-active .nav a {
@@ -922,12 +924,12 @@ a{
     margin-top: 3rem;
     border-radius: 20px;
     padding: 10px;
-    background-color:#eee8;
+    /* background-color:#eee8; */
 
   }
   .buttons a{
       text-align: center;
-      color: red;
+      /* color: red; */
   }
   a{
     text-decoration: none;
@@ -1179,7 +1181,10 @@ width: 130px;
     float: left;
   }
 
-
+  .hover-shadow{
+    width: 100px;
+    height: 100px;
+  }
 
 .next,.prev{
   top:50%;
@@ -1187,7 +1192,9 @@ width: 130px;
 .image{
   height: 50vh;
 }
-
+.modal-content{
+  width: 80%;
+}
 
 
 

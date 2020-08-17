@@ -32,7 +32,8 @@ body {
 /* Navbar */
 nav{
    height: 90px;
-   background:#0003;
+   background:#0001;
+   background: transparent;
    position: fixed;
    /* float: right; */
    width: 100%;
@@ -374,24 +375,31 @@ slide .p span {
   color: #fff7;
   text-transform: uppercase;
 }
+
 .buttons {
   margin-top: 2rem;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 10px;
-  background-color:rgba(255,255,255,0.1);
-
+  background-color:#0001;
+  border-color: #fff;
 
 }
 .buttons a{
     text-align: center;
-    color: #eee8;
+    color: #fff;
     font-weight: 900;
     text-transform: uppercase;
+}
+.buttons:hover{
+    margin-top: 2rem;
+    padding: 12px;
+    background-color: rgba(0, 255,255, 0.5);
 }
 a{
   text-decoration: none;
 
 }
+
 /* Slides Animation Completes Here */
 
 
@@ -512,12 +520,17 @@ background-color:red;
 }
 /* Modal Content */
 .modal-content {
-  position: relative;
-  margin: auto;
-  padding: 0;
-  width: 80%;
-  max-width: 900px;
+ position: relative;
+ margin: auto;
+ padding: 0;
+ width: 40%;
+ max-width: 900px;
 }
+
+  .hover-shadow{
+      width: 150px;
+      height: 150px;
+    }
 .image{
   height: 70vh;
 }
@@ -896,21 +909,7 @@ img.hover-shadow {
     margin-top: 10rem;
   /* font-style */
   }
-  .buttons {
-    margin-top: 3rem;
-    border-radius: 20px;
-    padding: 10px;
-    background-color:#eee8;
 
-  }
-  .buttons a{
-      text-align: center;
-      color: red;
-  }
-  a{
-    text-decoration: none;
-
-  }
   /* Slides Animation Completes Here */
 
 
@@ -1139,7 +1138,7 @@ img.hover-shadow {
 
   .containers1{
     width: 100%;
-    height: 140vh;
+    height: 180vh;
     overflow:hidden;
   }
 
@@ -1160,7 +1159,14 @@ img.hover-shadow {
     height: 50vh;
   }
 
+  .modal-content{
+    width: 80%;
+  }
 
+    .hover-shadow{
+        width: 100px;
+        height: 100px;
+      }
   .images{
     width: 110px;
     height: 90px;

@@ -34,6 +34,7 @@ body {
 nav{
    height: 90px;
    background:#0007;
+   background: transparent;
    position: fixed;
    /* float: right; */
    width: 100%;

@@ -51,8 +51,8 @@ a{
 nav {
     height: 90px;
     /* background: #0003; */
-    background-color: #0007;
-
+    background-color: #0001;
+    background: transparent;
     position: fixed;
     /* float: right; */
     width: 100%;
@@ -285,7 +285,11 @@ ul li ul li .dropdown:hover{
 
 .scrolling-active .nav {
     height: 70px;
+    background:#0007;
+
 }
+
+
 
 .scrolling-active .nav a {
     color: white;
@@ -384,29 +388,34 @@ slide .p span {
     text-transform: uppercase;
 }
 
-.buttons {
-    margin-top: 2rem;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
-}
-.buttons:hover{
-    margin-top: 2rem;
-    border-radius: 10px;
-    padding: 15px;
-    background-color: rgba(0, 255,255, 0.5);
-}
 
-.buttons a {
+
+.buttons {
+  margin-top: 2rem;
+  border-radius: 20px;
+  padding: 10px;
+  background-color:#0001;
+  border-color: #fff;
+
+}
+.buttons a{
     text-align: center;
-    color: #eee;
+    color: #fff;
     font-weight: 900;
     text-transform: uppercase;
 }
-
-a {
-    text-decoration: none;
+.buttons:hover{
+    margin-top: 2rem;
+    padding: 12px;
+    background-color: rgba(0, 255,255, 0.5);
 }
+a{
+  text-decoration: none;
+
+}
+
+
+
 
 
 /* Slides Animation Completes Here */
@@ -488,9 +497,10 @@ background-color:red;
   position: relative;
   margin: auto;
   padding: 0;
-  width: 80%;
+  width: 40%;
   max-width: 900px;
 }
+
 .image{
   height: 70vh;
 }
@@ -510,7 +520,10 @@ background-color:red;
   text-decoration: none;
   cursor: pointer;
 }
-
+.hover-shadow{
+      width: 150px;
+      height: 150px;
+    }
 .mySlides {
   display: none;
 }
@@ -895,19 +908,7 @@ img.hover-shadow {
         margin-top: 10rem;
         /* font-style */
     }
-    .buttons {
-        margin-top: 3rem;
-        border-radius: 20px;
-        padding: 10px;
-        background-color: #eee8;
-    }
-    .buttons a {
-        text-align: center;
-        color: red;
-    }
-    a {
-        text-decoration: none;
-    }
+    
     /* Slides Animation Completes Here */
     /* Image and Description MediaQuery Starts Here */
     .containers1 {
@@ -1137,7 +1138,14 @@ img.hover-shadow {
     .image{
       height: 50vh;
     }
+    .modal-content{
+      width: 80%;
+    }
 
+  .images    .hover-shadow{
+    width: 100px;
+    height: 100px;
+    }
     .images{
       width: 110px;
       height: 90px;

@@ -31,7 +31,8 @@ body {
 
 nav {
     height: 90px;
-    background: #0003;
+    background: #0001;
+    background: transparent;
     position: fixed;
     /* float: right; */
     width: 100%;
@@ -267,20 +268,18 @@ ul li ul li .dropdown:hover{
 }
 
 .scrolling-active .nav {
+  background-color: #0007;
     height: 70px;
 }
-
 .scrolling-active .nav a {
     color: white;
 }
-
 .scrolling-active .nav #logo {
   margin-top: 0.4rem;
    height:55px;
    width: 120px;
 
 }
-
 .scrolling-active .nav-link::after {
     background-color: #313131;
 }
@@ -319,7 +318,7 @@ slide:nth-child(1) {
 
 slide:nth-child(2) {
     animation-delay: 2s;
-    background-image: url('stainedglass/product/stained glass 6.PNG');
+    background-image: url('stainedglass/main/3.jpg');
     background-size: cover;
     width: 100%;
     background-position: center;
@@ -337,7 +336,8 @@ slide:nth-child(3) {
 slide:nth-child(4) {
     left: 100%;
     animation-delay: 8s;
-    background-image: url('stainedglass/product/stained glass3.PNG');
+    /* background-image: url('stainedglass/product/stained glass3.PNG'); */
+    background-image: url('stainedglass/main/2.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -364,25 +364,32 @@ slide .p span {
     text-transform: uppercase;
 }
 
+
 .buttons {
-    margin-top: 2rem;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 2rem;
+  border-radius: 20px;
+  padding: 10px;
+  background-color:#0001;
+  border-color: #fff;
+
 }
-
-.buttons a {
+.buttons a{
     text-align: center;
-    /* color: #eee8; */
-    color: #eee;
-
+    color: #fff;
     font-weight: 900;
     text-transform: uppercase;
 }
-
-a {
-    text-decoration: none;
+.buttons:hover{
+    margin-top: 2rem;
+    padding: 12px;
+    background-color: rgba(0, 255,255, 0.5);
 }
+a{
+  text-decoration: none;
+
+}
+
+
 
 
 /* Slides Animation Completes Here */
@@ -461,13 +468,16 @@ background-color:red;
   /* transform:transparent; */
 }
 /* Modal Content */
+
 .modal-content {
   position: relative;
   margin: auto;
   padding: 0;
-  width: 80%;
+  width: 40%;
   max-width: 900px;
 }
+
+
 .image{
   height: 70vh;
 }
@@ -879,19 +889,7 @@ a{
         font-weight: 100;
         margin-top: 10rem;
     }
-    .buttons {
-        margin-top: 3rem;
-        border-radius: 20px;
-        padding: 10px;
-        background-color: #eee8;
-    }
-    .buttons a {
-        text-align: center;
-        color: red;
-    }
-    a {
-        text-decoration: none;
-    }
+
     /* Slides Animation Completes Here */
     /* Image and Description MediaQuery Starts Here */
     .containers1 {
@@ -1114,7 +1112,14 @@ a{
     .image{
       height: 50vh;
     }
+    .modal-content{
+      width: 80%;
+    }
 
+      .hover-shadow{
+          width: 100px;
+          height: 100px;
+        }
 
     .images{
       width: 110px;

@@ -32,7 +32,8 @@ body {
 /* Navbar */
 nav{
    height: 90px;
-   background:#0007;
+   background:#0001;
+   background: transparent;
    position: fixed;
    /* float: right; */
    width: 100%;
@@ -263,6 +264,7 @@ h2 {
 
 .scrolling-active .nav {
     height: 70px;
+    background-color: #0007;
 }
 
 .scrolling-active .nav a {
