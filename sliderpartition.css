@@ -35,6 +35,7 @@ nav{
    height: 90px;
    /* background:#0007; */
    background:transparent;
+   z-index: 100;
    
    position: fixed;
    /* float: right; */

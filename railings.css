@@ -35,10 +35,12 @@ nav{
    height: 90px;
    /* background:#0007; */
    background:transparent;
-   
+
    position: fixed;
    /* float: right; */
    width: 100%;
+   z-index: 100;
+   
   }
 .nav img{
   width: 150px;

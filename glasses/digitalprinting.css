@@ -37,6 +37,8 @@ nav{
    position: fixed;
    /* float: right; */
    width: 100%;
+   z-index: 100;
+
    font-weight: 200;
 
   }
@@ -299,7 +301,7 @@ slide:nth-child(2){
   animation-delay: 2s;
   /* background-image: url('Digital Printing/products/back painted.PNG'); */
   /* background-image: url('Digital Printing/main/z3.png'); */
-  background-image: url('Digital Printing/products/5.jpg');
+  background-image: url('Digital Printing/products/g6.PNG');
 
   background-size: cover;
   /* background-image: url('Digital Printing/main/digital printing.PNG'); */
@@ -310,7 +312,7 @@ slide:nth-child(2){
 slide:nth-child(3){
   animation-delay: 5s;
   /* background-image: url('images/slide2.jpg'); */
-  background-image: url('Digital Printing/products/3.jpg');
+  background-image: url('Digital Printing/products/Glass Splashback - Printed Digital Images - Made To Measure.jpg');
   /* background-image: url('Digital Printing1roducts/digital printing 2.PNG'); */
   background-size: cover;
   background-position: center;
@@ -440,7 +442,9 @@ background-color:red;
 .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  /* z-index: 1; */
+  z-index: 100;
+  
   padding-top: 100px;
   left: 0;
   top: 0;

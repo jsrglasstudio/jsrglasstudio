@@ -42,6 +42,8 @@ nav {
     position: fixed;
     /* float: right; */
     width: 100%;
+    z-index: 100;
+    
 }
 
 .nav img {

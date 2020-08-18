@@ -54,6 +54,7 @@ nav{
    /* float: right; */
    width: 100%;
    font-weight: 200;
+   z-index: 100;
 
   }
 .nav img {
@@ -485,7 +486,9 @@ background-color:red;
 .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  /* z-index: 1; */
+  z-index: 100;
+  
   padding-top: 100px;
   left: 0;
   top: 0;
@@ -915,7 +918,7 @@ font-weight: 300;
         margin-top: 10rem;
         /* font-style */
     }
-  
+
     /* Slides Animation Completes Here */
     /* Image and Description MediaQuery Starts Here */
     .containers1 {
